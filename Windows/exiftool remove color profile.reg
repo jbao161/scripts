@@ -1,0 +1,26 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\Remove Color Profile]
+@=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpg\Shell\Remove Color Profile\Command]
+@="\"D:\\_Tools\\exiftool.exe\" -ICC_PROFILE= \"%1\" -overwrite_original"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\Remove Color Profile]
+@=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.jpeg\Shell\Remove Color Profile\Command]
+@="\"D:\\_Tools\\exiftool.exe\" -ICC_PROFILE= \"%1\" -overwrite_original"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\Remove Color Profile]
+@=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.png\Shell\Remove Color Profile\Command]
+@="\"D:\\_Tools\\exiftool.exe\" -ICC_PROFILE= \"%1\" -overwrite_original"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\Remove Color Profile]
+@=""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.gif\Shell\Remove Color Profile\Command]
+@="\"D:\\_Tools\\exiftool.exe\" -ICC_PROFILE= \"%1\" -overwrite_original"
+
