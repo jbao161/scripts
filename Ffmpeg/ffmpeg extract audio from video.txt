@@ -1,0 +1,1 @@
+ffmpeg -i "videofile.mp4" -f mp3 -ab 192000 -vn output-audio.mp3
